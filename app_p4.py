@@ -30,8 +30,7 @@ def data_summary():
     st.write('Average Lines Suggested:', df['Lines_Suggested'].mean())
     chart_data = df[['Lines_Accepted', 'Lines_Suggested',]]
     st.line_chart(chart_data)
- 
-
+  
 
 def data_header():  
     st.header('Header of Dataframe')
